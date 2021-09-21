@@ -2,26 +2,31 @@ CODE TEMPLATE:
 //This is a single line comment (notes that won't be read as instructions to the computer).
 //Different syntax is used for comments depending on the language.
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+//NES Tetris
+//Ezra Ramirez
+=======
 //CHANGE ME: Add the title of your game
-//Add your first and last name 
+//CHANGE ME: Add your name
+>>>>>>> c132844e31587ef46d6a2bc3fad7afed6ade4f2b
 
 
-if (CHANGE ME: condition # 1) {
-    //Add event below
+if (Piece is falling) {
+    //move and rotate
 } else {
-    //Add event below
+    //Lock piece onto surface
+
+if (A is hold on start menu) {
+    //Add ten levels to number
+} else {
+    //Start level at chosen level
 }
 
-if (CHANGE ME: condition # 2) {
-    //Add event below
+if (Piece touches top of board) {
+    //End game
 } else {
-    //Add event below
-}
-
-if (CHANGE ME: condition # 3) {
-    //Add event below
-} else {
-    //Add event below
+    //Bring in piece in NEXT box
 }
 
 
